@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>LanguageRanking</title>
-    <link href="https://cdn.jsdelivr.net/npm/handsontable@7.4.2/dist/handsontable.full.min.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href="./ranking.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/handsontable@latest/dist/handsontable.full.min.css">
+    <link rel="stylesheet" type="text/css" href="https://handsontable.com/static/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/handsontable@latest/dist/handsontable.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.3.0/echarts.min.js"></script>
+    <title>语言排行</title>
 </head>
-
 <body>
-    <h3 class="title">2020语言排行榜</h3>
-    <div id="rank"></div>
-    <div id="ranking"></div>
+    <div class="language_rank">
+        <h3>2020语言排行</h3>
+        <div id="rank"></div>
+    </div>
+    <div class="language_rank">
+        <div id="jsrank"></div>
+    </div>
+    <script src="./index.js"></script>
 </body>
-    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/handsontable@7.4.2/dist/handsontable.full.min.js"></script>
-    <script src="https://lib.baomitu.com/echarts/4.6.0/echarts.min.js"></script>
-    <script src="./ranking.js"></script>
-
 </html>
