@@ -94,7 +94,9 @@ var option = {
     title: {
         text: 'JavaScript语言排名变化'
     },
-    tooltip: {},
+    tooltip: {
+        trigger: 'axis'
+    },
     legend: {
         data: ['排名']
     },
